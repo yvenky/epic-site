@@ -1,0 +1,11 @@
+runtime: php74
+
+
+handlers:
+
+  - url: /
+    static_files: epic/index.html
+    upload: epic/index.html
+
+  - url: /
+    static_dir: epic
