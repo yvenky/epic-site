@@ -693,6 +693,10 @@ input[type=submit] {
   font-style: italic;
 }
 
+.company-text p strong {
+  color: #000;
+}
+
 .company-text h6 {
   display: inline-block;
   margin-bottom: 30px;
@@ -748,9 +752,11 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 992px) {
+  .company-img {
+    margin-bottom: 30px;
+  }
   .company-text {
     padding-left: 0;
-    margin-top: 30px;
   }
   .column-left-p {
     border-left: none !important;

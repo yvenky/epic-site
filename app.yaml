@@ -4,6 +4,7 @@ runtime: php74
 handlers:
 
   - url: /
+    secure: always
     static_files: epic/index.html
     upload: epic/index.html
 
